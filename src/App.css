@@ -1,8 +1,36 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  min-height: 100vh;
+  /* get cool background gradients on webgradients.com*/
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); 
 }
 
-.App-logo {
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipies{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
@@ -30,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
